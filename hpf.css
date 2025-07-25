@@ -7,4 +7,58 @@
 .creNameRow{
     background-color: red;
 }
-/*  */
+
+input[type="text"] {
+	height: 20px;
+	width: 150px;
+	margin: 2px 0px 2px 5px;
+}
+
+select {
+	height: 20px;
+	width: 150px;
+	margin: 2px 0px 2px 5px;
+}
+
+#expMonth, #expYear {
+	height: 20px;
+	width: 70px;
+	margin: 2px 0px 2px 5px;
+}
+
+/* CSS code to style the entire payment form/page */	
+body {
+font-family: "Arial"; 
+font-size: 14px; 
+background-color: #ffffff; 
+color: #044271; 
+}
+
+/* CSS code to replace "Complete" Button text */	
+.completeButton {
+	font-size: 0px !important; 
+}
+	
+.completeButton:after {
+	font-size: 20px !important;
+	float: left !important;
+	content: "Submit";  
+}
+
+/* This will change the button status to "Processing" once it's in processing state */
+.processingCompleteButton:after {
+	font-size: 20px !important;
+	float: left !important;
+	content: "Processing";  
+}
+
+/* CSS code to replace "Cancel" Button text */	
+.cancelButton {
+	font-size: 0px !important; 
+}
+	
+.cancelButton:after {
+	font-size: 20px !important;
+	float: left !important;
+	content: "Cancel ";  
+}
